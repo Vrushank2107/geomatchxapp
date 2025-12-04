@@ -119,12 +119,6 @@ Notes:
 - If the app can't find the database, set `DATABASE_PATH` or create the `data/` directory and ensure file permissions allow writes from your user.
 - If you hit errors related to PostGIS or Prisma, check whether you're accidentally using scripts intended for the Postgres workflow. For local dev just use `npm run seed` + `npm run dev`.
 
-## Next steps (optional help I can do)
-
-- Convert the repo to a Postgres + Prisma setup (I can add Prisma schema, migrations and update the DB layer)
-- Harden session handling (signed cookies / NextAuth)
-- Enumerate and document all API endpoints in `src/app/api/`
 
 ---
 
-If you'd like, I can now update the `DATABASE_SETUP.md` and other docs to show both workflows (SQLite local dev and Postgres production) or proceed with any of the next steps above.
