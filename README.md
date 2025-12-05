@@ -150,14 +150,6 @@ Notes:
 - If the app can't find the database, set `DATABASE_PATH` or create the `data/` directory and ensure file permissions allow writes from your user.
 - If you hit errors related to PostGIS or Prisma, check whether you're accidentally using scripts intended for the Postgres workflow. For local dev just use `npm run seed` + `npm run dev`.
 
-## Next steps / ideas
 
-- Convert the repo to a Postgres + Prisma setup (schema, migrations, and updated DB layer).
-- Harden authentication and sessions (e.g., signed cookies or NextAuth).
-- Re‑introduce and document a recommendations engine once the logic is ready.
-- Expand this README with screenshots or short GIFs showing:
-  - the candidate directory,
-  - the map with working geospatial queries,
-  - and the SME job brief flow.
+---
 
-You can now clone this repo, run the steps under **Getting started**, and freely explore or extend GeoMatchX.
